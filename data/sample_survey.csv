@@ -1,0 +1,51 @@
+respondent_id,intervention_group,confidence,engagement,perceived_fairness,genai_usefulness,open_ended
+R001,Social Justice in Calculus,4,3,5,4,Real data from our community made the problems meaningful.
+R002,PMaster Game,4,3,3,5,Competing with classmates in the game kept me motivated.
+R003,PMaster Game,5,5,3,4,I enjoyed learning project management by playing the game.
+R004,PMaster Game,4,5,4,5,The simulation showed me how delays cascade in a project.
+R005,GenAI in Project Management,4,2,4,5,"I liked the instant feedback, but I still wanted human guidance."
+R006,PMaster Game,5,5,4,3,The simulation showed me how delays cascade in a project.
+R007,Social Justice in Calculus,5,4,4,4,The group discussions about fairness were eye-opening.
+R008,Social Justice in Calculus,4,4,5,3,Discussing equity in class helped me engage with the material.
+R009,Social Justice in Calculus,4,3,4,2,I felt heard when we talked about access and opportunity.
+R010,Social Justice in Calculus,4,4,4,3,I felt heard when we talked about access and opportunity.
+R011,Social Justice in Calculus,3,1,4,4,I felt heard when we talked about access and opportunity.
+R012,Social Justice in Calculus,3,3,5,4,I appreciated seeing how math connects to social justice issues.
+R013,Social Justice in Calculus,4,4,5,3,Real data from our community made the problems meaningful.
+R014,PMaster Game,4,5,4,3,The game made project management fun and engaging.
+R015,PMaster Game,4,4,5,4,Playing PMaster helped me learn scheduling through practice.
+R016,PMaster Game,4,5,4,2,Competing with classmates in the game kept me motivated.
+R017,GenAI in Project Management,3,4,4,4,The AI feedback helped me plan my project timeline better.
+R018,GenAI in Project Management,5,4,4,5,AI feedback saved time on drafting the project proposal.
+R019,GenAI in Project Management,5,3,5,5,"I liked the instant feedback, but I still wanted human guidance."
+R020,GenAI in Project Management,5,4,3,5,The AI feedback helped me plan my project timeline better.
+R021,GenAI in Project Management,3,4,4,5,"I liked the instant feedback, but I still wanted human guidance."
+R022,GenAI in Project Management,4,4,4,3,The AI feedback helped me plan my project timeline better.
+R023,PMaster Game,4,4,3,5,The simulation showed me how delays cascade in a project.
+R024,GenAI in Project Management,5,4,3,4,The AI feedback helped me plan my project timeline better.
+R025,PMaster Game,3,4,4,4,The game was engaging and I learned by making decisions.
+R026,PMaster Game,3,4,4,5,The game was engaging and I learned by making decisions.
+R027,GenAI in Project Management,4,4,4,5,GenAI suggestions were useful but sometimes too generic.
+R028,GenAI in Project Management,4,4,4,5,I felt more confident presenting after using the AI tutor.
+R029,Social Justice in Calculus,3,3,4,4,The real-world examples made calculus feel relevant and fair.
+R030,GenAI in Project Management,4,3,5,5,"I liked the instant feedback, but I still wanted human guidance."
+R031,PMaster Game,5,5,4,3,The simulation showed me how delays cascade in a project.
+R032,GenAI in Project Management,2,3,3,3,I felt more confident presenting after using the AI tutor.
+R033,Social Justice in Calculus,3,3,5,3,Real data from our community made the problems meaningful.
+R034,Social Justice in Calculus,3,4,4,4,Discussing equity in class helped me engage with the material.
+R035,PMaster Game,3,5,2,4,Competing with classmates in the game kept me motivated.
+R036,GenAI in Project Management,5,3,1,5,AI feedback saved time on drafting the project proposal.
+R037,GenAI in Project Management,5,4,4,4,The chatbot helped me understand project risks clearly.
+R038,GenAI in Project Management,4,4,3,5,The chatbot helped me understand project risks clearly.
+R039,Social Justice in Calculus,4,4,3,3,Discussing equity in class helped me engage with the material.
+R040,GenAI in Project Management,3,4,4,4,AI feedback saved time on drafting the project proposal.
+R041,PMaster Game,3,5,4,3,The game made project management fun and engaging.
+R042,Social Justice in Calculus,4,4,4,4,The group discussions about fairness were eye-opening.
+R043,PMaster Game,3,5,4,3,The game made project management fun and engaging.
+R044,PMaster Game,4,5,4,4,Competing with classmates in the game kept me motivated.
+R045,GenAI in Project Management,5,3,4,4,I felt more confident presenting after using the AI tutor.
+R046,Social Justice in Calculus,5,4,4,4,Real data from our community made the problems meaningful.
+R047,Social Justice in Calculus,3,4,5,2,The real-world examples made calculus feel relevant and fair.
+R048,GenAI in Project Management,3,3,4,4,The chatbot helped me understand project risks clearly.
+R049,Social Justice in Calculus,3,3,4,3,I appreciated seeing how math connects to social justice issues.
+R050,PMaster Game,5,5,4,3,The simulation showed me how delays cascade in a project.

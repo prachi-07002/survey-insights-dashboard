@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Survey Insights Report — STEM Education Interventions</title>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; max-width: 900px;
+       margin: 0 auto; padding: 24px; color: #222; background: #fdfbf7; }
+h1 { color: #5b2a86; border-bottom: 3px solid #5b2a86; padding-bottom: 8px; }
+h2 { color: #5b2a86; margin-top: 36px; }
+h3 { color: #333; margin-top: 24px; }
+table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+th, td { border: 1px solid #ccc; padding: 8px 10px; text-align: left; }
+th { background: #efe6f7; }
+tr:nth-child(even) td { background: #f7f3fb; }
+.bar-row { display: flex; align-items: center; margin: 4px 0; }
+.bar-label { width: 140px; flex-shrink: 0; }
+.bar-track { flex: 1; background: #eee; height: 18px; border-radius: 4px; }
+.bar-fill { background: #7b4ba6; height: 18px; border-radius: 4px; }
+.bar-value { width: 70px; text-align: right; flex-shrink: 0; }
+.note { color: #555; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<h1>Survey Insights Report</h1>
+<p>Qualitative + Likert-scale survey analysis of three STEM education interventions: GenAI in Project Management, Social Justice in Calculus, and the PMaster Game.</p>
+<p><strong>Respondents (N):</strong> 50 &nbsp;|&nbsp; <strong>Data:</strong> fictional sample survey (data/sample_survey.csv)</p>
+<h2>Sample sizes by intervention group</h2>
+<table>
+<tr><th>Intervention group</th><th>N</th><th>Share</th></tr>
+<tr><td>GenAI in Project Management</td><td>18</td><td>36%</td></tr>
+<tr><td>PMaster Game</td><td>16</td><td>32%</td></tr>
+<tr><td>Social Justice in Calculus</td><td>16</td><td>32%</td></tr>
+</table>
+<h2>Overall results (all groups combined)</h2>
+<table>
+<tr><th>Item</th><th>N</th><th>Mean</th><th>Median</th><th>Std dev</th></tr>
+<tr><td>Confidence</td><td>50</td><td>3.90</td><td>4.0</td><td>0.81</td></tr>
+<tr><td>Engagement</td><td>50</td><td>3.86</td><td>4.0</td><td>0.86</td></tr>
+<tr><td>Perceived fairness</td><td>50</td><td>3.92</td><td>4.0</td><td>0.78</td></tr>
+<tr><td>GenAI usefulness</td><td>50</td><td>3.88</td><td>4.0</td><td>0.90</td></tr>
+</table>
+<h3>Confidence — distribution (1–5)</h3>
+<div class="bar-row"><span class="bar-label">Score 1</span><span class="bar-track"><span class="bar-fill" style="display:block;width:0.0%"></span></span><span class="bar-value">0 (0%)</span></div><div class="bar-row"><span class="bar-label">Score 2</span><span class="bar-track"><span class="bar-fill" style="display:block;width:2.0%"></span></span><span class="bar-value">1 (2%)</span></div><div class="bar-row"><span class="bar-label">Score 3</span><span class="bar-track"><span class="bar-fill" style="display:block;width:32.0%"></span></span><span class="bar-value">16 (32%)</span></div><div class="bar-row"><span class="bar-label">Score 4</span><span class="bar-track"><span class="bar-fill" style="display:block;width:40.0%"></span></span><span class="bar-value">20 (40%)</span></div><div class="bar-row"><span class="bar-label">Score 5</span><span class="bar-track"><span class="bar-fill" style="display:block;width:26.0%"></span></span><span class="bar-value">13 (26%)</span></div>
+<h3>Engagement — distribution (1–5)</h3>
+<div class="bar-row"><span class="bar-label">Score 1</span><span class="bar-track"><span class="bar-fill" style="display:block;width:2.0%"></span></span><span class="bar-value">1 (2%)</span></div><div class="bar-row"><span class="bar-label">Score 2</span><span class="bar-track"><span class="bar-fill" style="display:block;width:2.0%"></span></span><span class="bar-value">1 (2%)</span></div><div class="bar-row"><span class="bar-label">Score 3</span><span class="bar-track"><span class="bar-fill" style="display:block;width:26.0%"></span></span><span class="bar-value">13 (26%)</span></div><div class="bar-row"><span class="bar-label">Score 4</span><span class="bar-track"><span class="bar-fill" style="display:block;width:48.0%"></span></span><span class="bar-value">24 (48%)</span></div><div class="bar-row"><span class="bar-label">Score 5</span><span class="bar-track"><span class="bar-fill" style="display:block;width:22.0%"></span></span><span class="bar-value">11 (22%)</span></div>
+<h3>Perceived fairness — distribution (1–5)</h3>
+<div class="bar-row"><span class="bar-label">Score 1</span><span class="bar-track"><span class="bar-fill" style="display:block;width:2.0%"></span></span><span class="bar-value">1 (2%)</span></div><div class="bar-row"><span class="bar-label">Score 2</span><span class="bar-track"><span class="bar-fill" style="display:block;width:2.0%"></span></span><span class="bar-value">1 (2%)</span></div><div class="bar-row"><span class="bar-label">Score 3</span><span class="bar-track"><span class="bar-fill" style="display:block;width:16.0%"></span></span><span class="bar-value">8 (16%)</span></div><div class="bar-row"><span class="bar-label">Score 4</span><span class="bar-track"><span class="bar-fill" style="display:block;width:62.0%"></span></span><span class="bar-value">31 (62%)</span></div><div class="bar-row"><span class="bar-label">Score 5</span><span class="bar-track"><span class="bar-fill" style="display:block;width:18.0%"></span></span><span class="bar-value">9 (18%)</span></div>
+<h3>GenAI usefulness — distribution (1–5)</h3>
+<div class="bar-row"><span class="bar-label">Score 1</span><span class="bar-track"><span class="bar-fill" style="display:block;width:0.0%"></span></span><span class="bar-value">0 (0%)</span></div><div class="bar-row"><span class="bar-label">Score 2</span><span class="bar-track"><span class="bar-fill" style="display:block;width:6.0%"></span></span><span class="bar-value">3 (6%)</span></div><div class="bar-row"><span class="bar-label">Score 3</span><span class="bar-track"><span class="bar-fill" style="display:block;width:28.0%"></span></span><span class="bar-value">14 (28%)</span></div><div class="bar-row"><span class="bar-label">Score 4</span><span class="bar-track"><span class="bar-fill" style="display:block;width:38.0%"></span></span><span class="bar-value">19 (38%)</span></div><div class="bar-row"><span class="bar-label">Score 5</span><span class="bar-track"><span class="bar-fill" style="display:block;width:28.0%"></span></span><span class="bar-value">14 (28%)</span></div>
+<h2>Group comparison</h2>
+<table>
+<tr><th>Item</th><th>GenAI in Project Management</th><th>PMaster Game</th><th>Social Justice in Calculus</th><th>Largest gap</th></tr>
+<tr><td>Confidence</td><td>4.06</td><td>3.94</td><td>3.69</td><td>0.37 (GenAI in Project Management vs Social Justice in Calculus)</td></tr>
+<tr><td>Engagement</td><td>3.56</td><td>4.62</td><td>3.44</td><td>1.19 (PMaster Game vs Social Justice in Calculus)</td></tr>
+<tr><td>Perceived fairness</td><td>3.72</td><td>3.75</td><td>4.31</td><td>0.59 (Social Justice in Calculus vs GenAI in Project Management)</td></tr>
+<tr><td>GenAI usefulness</td><td>4.44</td><td>3.75</td><td>3.38</td><td>1.07 (GenAI in Project Management vs Social Justice in Calculus)</td></tr>
+</table>
+<h3>Confidence — mean by group</h3>
+<div class="bar-row"><span class="bar-label">GenAI in Project Management</span><span class="bar-track"><span class="bar-fill" style="display:block;width:81.1%"></span></span><span class="bar-value">4.06</span></div><div class="bar-row"><span class="bar-label">PMaster Game</span><span class="bar-track"><span class="bar-fill" style="display:block;width:78.8%"></span></span><span class="bar-value">3.94</span></div><div class="bar-row"><span class="bar-label">Social Justice in Calculus</span><span class="bar-track"><span class="bar-fill" style="display:block;width:73.8%"></span></span><span class="bar-value">3.69</span></div>
+<h3>Engagement — mean by group</h3>
+<div class="bar-row"><span class="bar-label">GenAI in Project Management</span><span class="bar-track"><span class="bar-fill" style="display:block;width:71.1%"></span></span><span class="bar-value">3.56</span></div><div class="bar-row"><span class="bar-label">PMaster Game</span><span class="bar-track"><span class="bar-fill" style="display:block;width:92.5%"></span></span><span class="bar-value">4.62</span></div><div class="bar-row"><span class="bar-label">Social Justice in Calculus</span><span class="bar-track"><span class="bar-fill" style="display:block;width:68.8%"></span></span><span class="bar-value">3.44</span></div>
+<h3>Perceived fairness — mean by group</h3>
+<div class="bar-row"><span class="bar-label">GenAI in Project Management</span><span class="bar-track"><span class="bar-fill" style="display:block;width:74.4%"></span></span><span class="bar-value">3.72</span></div><div class="bar-row"><span class="bar-label">PMaster Game</span><span class="bar-track"><span class="bar-fill" style="display:block;width:75.0%"></span></span><span class="bar-value">3.75</span></div><div class="bar-row"><span class="bar-label">Social Justice in Calculus</span><span class="bar-track"><span class="bar-fill" style="display:block;width:86.2%"></span></span><span class="bar-value">4.31</span></div>
+<h3>GenAI usefulness — mean by group</h3>
+<div class="bar-row"><span class="bar-label">GenAI in Project Management</span><span class="bar-track"><span class="bar-fill" style="display:block;width:88.9%"></span></span><span class="bar-value">4.44</span></div><div class="bar-row"><span class="bar-label">PMaster Game</span><span class="bar-track"><span class="bar-fill" style="display:block;width:75.0%"></span></span><span class="bar-value">3.75</span></div><div class="bar-row"><span class="bar-label">Social Justice in Calculus</span><span class="bar-track"><span class="bar-fill" style="display:block;width:67.5%"></span></span><span class="bar-value">3.38</span></div>
+<h2>Open-ended responses — top keywords</h2>
+<table>
+<tr><th>Keyword</th><th>Mentions</th></tr>
+<tr><td>project</td><td>19</td></tr>
+<tr><td>feedback</td><td>11</td></tr>
+<tr><td>helped</td><td>11</td></tr>
+<tr><td>game</td><td>10</td></tr>
+<tr><td>ai</td><td>10</td></tr>
+<tr><td>made</td><td>9</td></tr>
+<tr><td>real</td><td>6</td></tr>
+<tr><td>felt</td><td>6</td></tr>
+<tr><td>simulation</td><td>5</td></tr>
+<tr><td>showed</td><td>5</td></tr>
+</table>
+<h3>GenAI in Project Management</h3>
+<table>
+<tr><th>Keyword</th><th>Mentions</th></tr>
+<tr><td>feedback</td><td>11</td></tr>
+<tr><td>ai</td><td>10</td></tr>
+<tr><td>project</td><td>10</td></tr>
+<tr><td>helped</td><td>7</td></tr>
+<tr><td>liked</td><td>4</td></tr>
+<tr><td>instant</td><td>4</td></tr>
+<tr><td>still</td><td>4</td></tr>
+<tr><td>wanted</td><td>4</td></tr>
+<tr><td>human</td><td>4</td></tr>
+<tr><td>guidance</td><td>4</td></tr>
+</table>
+<h3>PMaster Game</h3>
+<table>
+<tr><th>Keyword</th><th>Mentions</th></tr>
+<tr><td>game</td><td>10</td></tr>
+<tr><td>project</td><td>9</td></tr>
+<tr><td>simulation</td><td>5</td></tr>
+<tr><td>showed</td><td>5</td></tr>
+<tr><td>delays</td><td>5</td></tr>
+<tr><td>cascade</td><td>5</td></tr>
+<tr><td>engaging</td><td>5</td></tr>
+<tr><td>competing</td><td>4</td></tr>
+<tr><td>classmates</td><td>4</td></tr>
+<tr><td>kept</td><td>4</td></tr>
+</table>
+<h3>Social Justice in Calculus</h3>
+<table>
+<tr><th>Keyword</th><th>Mentions</th></tr>
+<tr><td>real</td><td>6</td></tr>
+<tr><td>made</td><td>6</td></tr>
+<tr><td>data</td><td>4</td></tr>
+<tr><td>community</td><td>4</td></tr>
+<tr><td>problems</td><td>4</td></tr>
+<tr><td>meaningful</td><td>4</td></tr>
+<tr><td>discussing</td><td>3</td></tr>
+<tr><td>equity</td><td>3</td></tr>
+<tr><td>class</td><td>3</td></tr>
+<tr><td>helped</td><td>3</td></tr>
+</table>
+<p class="note">All data in this report is fictional sample data created for demonstration purposes; no real personal data is included.</p>
+</body>
+</html>
